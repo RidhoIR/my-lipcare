@@ -7,13 +7,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Star, Heart, Sparkles, Shield, MessageCircle } from "lucide-react"
-import { useEffect } from "react"
-import Head from "next/head"
 
-export const metadata = {
-  title: "RitzGlam Lip Serum",
-  description: "Landing page produk lip care terbaik",
-}
 
 export default function RitzGlamLanding() {
   const [formData, setFormData] = useState({
@@ -72,13 +66,6 @@ export default function RitzGlamLanding() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Head>
-        <title>RitzGlam Lip Serum - Pesan Sekarang</title>
-        <meta
-          name="description"
-          content="RitzGlam Lip Serum - Serum bibir revolusioner untuk bibir sehat, lembap, dan menawan."
-        />
-      </Head>
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-card to-background py-20 px-4">
         <div className="container mx-auto max-w-6xl">
